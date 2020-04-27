@@ -1,0 +1,10 @@
+/groupsville.phar.version
+/groupsville.phar
+/vendor
+/box.phar
+/.vagrant
+/tests/logs/*
+ubuntu-xenial-16.04-cloudimg-console.log
+*.swp
+/var
+/test

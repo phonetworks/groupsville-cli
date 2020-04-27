@@ -1,0 +1,13 @@
+{
+    "chmod": "0755",
+    "directories": [
+      "src",
+      "data",
+      "vendor"
+    ],
+    "git-version": "package_version",
+    "main": "bin/groupsville.php",
+    "output": "groupsville.phar",
+    "stub": true
+  }
+  
