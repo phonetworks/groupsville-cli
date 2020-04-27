@@ -10,6 +10,7 @@ $version = file_get_contents(dirname(__DIR__) . DIRECTORY_SEPARATOR . "VERSION")
 $application = new Application('Groupsville', $version);
 $application->add(new Cli\BuildCommand());
 $application->add(new Cli\InitCommand());
+$application->add(new Cli\PreviewCommand());
 //$application->add(new Cli\ServeCommand());
 //$application->add(new Cli\RunCommand());
 $application->run();
